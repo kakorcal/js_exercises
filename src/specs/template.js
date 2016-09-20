@@ -13,7 +13,7 @@ describe('FCN', ()=>{
   });
 
   it('should be a function', ()=>{
-    assert.strictEqual(typeof FNAME, 'function');
-    assert.strictEqual(typeof FNAME, 'function');
+    assert.strictEqual(FNAME(), );
+    assert.strictEqual(FNAME(), );
   });
 });
