@@ -15,7 +15,7 @@ describe('14_exoh', ()=>{
     assert.strictEqual(typeof ExOh, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should check if string has equal x and o count', ()=>{
     assert.strictEqual(ExOh('xooxxo'), true);
     assert.strictEqual(ExOh('x'), false);
     assert.strictEqual(ExOh('xooxxxxooxo'), false);

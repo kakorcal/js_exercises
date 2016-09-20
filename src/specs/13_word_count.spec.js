@@ -15,7 +15,7 @@ describe('13_word_count', ()=>{
     assert.strictEqual(typeof WordCount, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should count the words', ()=>{
     assert.strictEqual(WordCount('Hello World'), 2);
     assert.strictEqual(WordCount('one 22 three'), 3);
     assert.strictEqual(WordCount('letter sz!23 z'), 3);

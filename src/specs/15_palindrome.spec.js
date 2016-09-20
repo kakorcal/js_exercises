@@ -15,7 +15,7 @@ describe('15_palindrome', ()=>{
     assert.strictEqual(typeof Palindrome, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should check if the string is a palindrome', ()=>{
     assert.strictEqual(Palindrome('never odd or even'), true);
     assert.strictEqual(Palindrome('eye'), true);
   });

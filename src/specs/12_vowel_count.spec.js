@@ -15,7 +15,7 @@ describe('12_vowel_count', ()=>{
     assert.strictEqual(typeof VowelCount, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should count the vowels', ()=>{
     assert.strictEqual(VowelCount('hello'), 2);
     assert.strictEqual(VowelCount('coderbyte'), 3);
     assert.strictEqual(VowelCount('All cows eat grass'), 5);

@@ -15,7 +15,7 @@ describe('11_ab_check', ()=>{
     assert.strictEqual(typeof ABCheck, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should check the distance of a and b', ()=>{
     assert.strictEqual(ABCheck('after badly'), false);
     assert.strictEqual(ABCheck('Laura sobs'), true);
     assert.strictEqual(ABCheck('lane borrowed'), true);
