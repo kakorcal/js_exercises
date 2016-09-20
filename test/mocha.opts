@@ -1,1 +1,2 @@
 src/specs/*.spec.js
+--require=babel-core/register

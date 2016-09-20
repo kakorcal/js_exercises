@@ -8,6 +8,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
     "locus": "^1.2.0",
     "mocha": "^3.0.2"
   },
