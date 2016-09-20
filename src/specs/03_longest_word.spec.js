@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const LongestWord = require(path.resolve('src/prompts', '3_longest_word'));
+const LongestWord = require(path.resolve('src/prompts', '03_longest_word'));
 
 /*
   Input  : "fun&!! time"

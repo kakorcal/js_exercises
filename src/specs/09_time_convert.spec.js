@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const TimeConvert = require(path.resolve('src/prompts', '9_time_convert'));
+const TimeConvert = require(path.resolve('src/prompts', '09_time_convert'));
 
 /*
   Input:126

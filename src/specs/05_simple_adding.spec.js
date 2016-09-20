@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const SimpleAdding = require(path.resolve('src/prompts', '5_simple_adding'));
+const SimpleAdding = require(path.resolve('src/prompts', '05_simple_adding'));
 
 /*
   Input  : 12

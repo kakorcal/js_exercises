@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const LetterChanges = require(path.resolve('src/prompts', '4_letter_changes'));
+const LetterChanges = require(path.resolve('src/prompts', '04_letter_changes'));
 
 /*
 Input  : "hello*3"

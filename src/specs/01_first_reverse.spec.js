@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const FirstReverse = require(path.resolve('src/prompts', '1_first_reverse'));
+const FirstReverse = require(path.resolve('src/prompts', '01_first_reverse'));
 
 describe('1_first_reverse', ()=>{
   it('should be a function', ()=>{

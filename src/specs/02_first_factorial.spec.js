@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const FirstFactorial = require(path.resolve('src/prompts', '2_first_factorial'));
+const FirstFactorial = require(path.resolve('src/prompts', '02_first_factorial'));
 
 /*
   Input  : 4

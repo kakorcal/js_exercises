@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const LetterCapitalize = require(path.resolve('src/prompts', '6_letter_capitalize'));
+const LetterCapitalize = require(path.resolve('src/prompts', '06_letter_capitalize'));
 
 /*
   Input  : "hello world"

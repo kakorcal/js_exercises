@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const SimpleSymbols = require(path.resolve('src/prompts', '7_simple_symbols'));
+const SimpleSymbols = require(path.resolve('src/prompts', '07_simple_symbols'));
 
 /*
 

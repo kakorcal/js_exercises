@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const CheckNums = require(path.resolve('src/prompts', '8_check_nums'));
+const CheckNums = require(path.resolve('src/prompts', '08_check_nums'));
 
 /*
   Input:3 & num2 = 122
