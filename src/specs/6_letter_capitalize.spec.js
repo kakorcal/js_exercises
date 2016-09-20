@@ -15,7 +15,7 @@ describe('6_letter_capitalize', ()=>{
     assert.strictEqual(typeof LetterCapitalize, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should capitalize the first letter in each word', ()=>{
     assert.strictEqual(LetterCapitalize('hello world'), 'Hello World');
     assert.strictEqual(LetterCapitalize('i ran there'), 'I Ran There');
   });

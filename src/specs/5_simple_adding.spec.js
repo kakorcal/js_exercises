@@ -15,7 +15,7 @@ describe('5_simple_adding', ()=>{
     assert.strictEqual(typeof SimpleAdding, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should add up all the numbers from 1 to num', ()=>{
     assert.strictEqual(SimpleAdding(12), 78);
     assert.strictEqual(SimpleAdding(140), 9870);
   });
