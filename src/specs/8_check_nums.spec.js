@@ -15,7 +15,7 @@ describe('8_check_nums', ()=>{
     assert.strictEqual(typeof CheckNums, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should compare numbers correctly', ()=>{
     assert.strictEqual(CheckNums(3, 122), 'true');
     assert.strictEqual(CheckNums(67, 67), '-1');
   });
