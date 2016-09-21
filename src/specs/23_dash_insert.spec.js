@@ -15,7 +15,7 @@ describe('23_dash_insert', ()=>{
     assert.strictEqual(typeof DashInsert, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should insert dashes if adjacent elements are odd', ()=>{
     assert.strictEqual(DashInsert('99946'), '9-9-946');
     assert.strictEqual(DashInsert('56730'), '567-30');
     assert.strictEqual(DashInsert('454793'), '4547-9-3');
