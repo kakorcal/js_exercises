@@ -15,7 +15,7 @@ describe('18_letter_count', ()=>{
     assert.strictEqual(typeof LetterCountI, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return the word with the highest occurrence count', ()=>{
     assert.strictEqual(LetterCountI('Hello apple pie'), 'Hello');
     assert.strictEqual(LetterCountI('No words'), -1);
     assert.strictEqual(LetterCountI('"Today, is the greatest day ever!"'), 'greatest');
