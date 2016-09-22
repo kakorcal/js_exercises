@@ -1,6 +1,6 @@
 const assert = require('assert');
 const path = require('path');
-const ArrayMatching = require(path.resolve('src/prompts', '27_array_matching'));
+const ArrayMatching = require(path.resolve('src/prompts', '39_array_matching'));
 
 /*
   Input:"[5, 2, 3]", "[2, 2, 3, 10, 6]"
@@ -10,7 +10,7 @@ const ArrayMatching = require(path.resolve('src/prompts', '27_array_matching'));
   Output:"3-3-6-2"
 */
 
-describe('27_array_matching', ()=>{
+describe('39_array_matching', ()=>{
   it('should be a function', ()=>{
     assert.strictEqual(typeof ArrayMatching, 'function');
   });

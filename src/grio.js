@@ -69,23 +69,12 @@ describe("Test suite", function() {
   
   //code
   var wordCount = function(str) {
-    if(str){
-      var arr = str.split(' ');
-      
-      return arr.reduce((obj, cur)=>{
-        var el = cur.replace(/[^A-Za-z]/g, '').toLowerCase();
-        if(!obj[el]){
-          obj[el] = 1;
-        }else{
-          obj[el]++;
-        }
-        return obj;
-      }, {});
-
-    }else{
-      return {};
-    }
-  
+    return str ? str.split(' ').reduce((obj, cur)=>{
+      var prop = cur.replace(/[^A-Za-z]/g, '').toLowerCase();
+      if(!obj[prop]) obj[prop] = 1;
+      else obj[prop]++;
+      return obj;
+    }, {}) : {};
   };
 });
 

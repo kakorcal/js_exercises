@@ -15,19 +15,17 @@
 function ArrayMatching(strArr){
   var arr1 = strArr[0].match(/\d+/g).map(num => +num);
   var arr2 = strArr[1].match(/\d+/g).map(num => +num);
-  var acc = merge(arr1, arr2);
   
-  function merge(a1, a2){
-    if(a1.length || a2.length){
-      var num1 = a1[0] ? a1[0] : 0;
-      var num2 = a2[0] ? a2[0] : 0;
-      return [num1+num2].concat(merge(a1.slice(1), a2.slice(1)));
-    }else{
-      return [];
+  function merge(arr1, arr2){
+    if(arr1.length || arr2.length){
+      var num1 = arr1[0] ? arr1[0] : 0;
+      var num2 = arr2[0] ? arr2[0] : 0;
+      return [num1+num2].concat(merge(arr1.slice(1), arr2.slice(1)));
     }
+    return [];
   }  
 
-  return acc.join('-');
+  return merge(arr1, arr2).join('-');
 }
 
 module.exports = ArrayMatching;
