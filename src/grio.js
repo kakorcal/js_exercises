@@ -54,8 +54,7 @@ describe("Test suite", function() {
   });
   
     
-  it('should return the correct object when there are punctuation in the input a', ()=>{
-    
+  it('should return the correct object when there are punctuation in the input', ()=>{
     assert.deepEqual(wordCount("To be, to be: question: Whether 'tis nobler to suffer"), {
       to: 3,
       be: 2,
