@@ -15,7 +15,7 @@ describe('34_hamming_distance', ()=>{
     assert.strictEqual(typeof HammingDistance, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return the difference count of each string', ()=>{
     assert.strictEqual(HammingDistance(["10011", "10100"]), 3);
     assert.strictEqual(HammingDistance(["helloworld", "worldhello"]), 8);
     assert.strictEqual(HammingDistance(["coder", "codec"]), 1);

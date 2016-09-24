@@ -15,7 +15,7 @@ describe('29_multiplicative_persistence', ()=>{
     assert.strictEqual(typeof MultiplicativePersistence, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return the count of multiplicative persistence', ()=>{
     assert.strictEqual(MultiplicativePersistence(4), 0);
     assert.strictEqual(MultiplicativePersistence(25), 2);
     assert.strictEqual(MultiplicativePersistence(39), 3);

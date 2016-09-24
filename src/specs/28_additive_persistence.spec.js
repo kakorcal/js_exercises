@@ -15,7 +15,7 @@ describe('28_additive_persistence', ()=>{
     assert.strictEqual(typeof AdditivePersistence, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return the count of additive persistence', ()=>{
     assert.strictEqual(AdditivePersistence(4), 0);
     assert.strictEqual(AdditivePersistence(19), 2);
     assert.strictEqual(AdditivePersistence(2718), 2);

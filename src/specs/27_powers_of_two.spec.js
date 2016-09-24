@@ -15,7 +15,7 @@ describe('27_powers_of_two', ()=>{
     assert.strictEqual(typeof PowersOfTwo, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should determine if the input is a power of two', ()=>{
     assert.strictEqual(PowersOfTwo(4), 'true');
     assert.strictEqual(PowersOfTwo(124), 'false');
     assert.strictEqual(PowersOfTwo(16), 'true');

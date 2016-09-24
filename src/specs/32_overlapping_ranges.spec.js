@@ -15,7 +15,7 @@ describe('32_overlapping_ranges', ()=>{
     assert.strictEqual(typeof OverlappingRanges, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should determine if the ranges overlap', ()=>{
     assert.strictEqual(OverlappingRanges([5,11,1,5,1]), true);
     assert.strictEqual(OverlappingRanges([1,5,5,11,1]), true);
     assert.strictEqual(OverlappingRanges([1,8,2,4,4]), false);

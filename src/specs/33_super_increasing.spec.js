@@ -15,7 +15,7 @@ describe('33_super_increasing', ()=>{
     assert.strictEqual(typeof Superincreasing, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should determine if every element is greater than the sum of previous elements', ()=>{
     assert.strictEqual(Superincreasing([1,2,3,4]), 'false');
     assert.strictEqual(Superincreasing([1,2,5,10]), 'true');
     assert.strictEqual(Superincreasing([1,3,6,13,54]), 'true');

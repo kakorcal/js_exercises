@@ -15,7 +15,7 @@ describe('39_array_matching', ()=>{
     assert.strictEqual(typeof ArrayMatching, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should add the arrays and return a string with dashes in between', ()=>{
     assert.strictEqual(ArrayMatching(["[5, 2, 3]", "[2, 2, 3, 10, 6]"]), "7-4-6-10-6");
     assert.strictEqual(ArrayMatching(["[1, 2, 1]", "[2, 1, 5, 2]"]), "3-3-6-2");
     assert.strictEqual(ArrayMatching(["[1, 2, 5, 6]", "[5, 2, 8, 11]"]), "6-4-13-17");
