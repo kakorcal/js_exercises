@@ -1,8 +1,8 @@
 const assert = require('assert');
 const path = require('path');
-const rectangleArea = require(path.resolve('src/prompts', '1_rectangle_area'));
+const rectangleArea = require(path.resolve('src/prompts', '35_rectangle_area'));
 
-describe('1_rectangle_area', ()=>{
+describe('35_rectangle_area', ()=>{
   it('should be a function', ()=>{
     assert.strictEqual(typeof rectangleArea, 'function');
   });
