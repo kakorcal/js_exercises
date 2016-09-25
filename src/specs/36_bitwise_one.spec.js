@@ -15,7 +15,7 @@ describe('36_bitwise_one', ()=>{
     assert.strictEqual(typeof BitwiseOne, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return a bitwise OR operated string', ()=>{
     assert.strictEqual(BitwiseOne(["100", "000"]), '100');
     assert.strictEqual(BitwiseOne(["00011", "01010"]), '01011');
     assert.strictEqual(BitwiseOne(["1001", "0100"]), '1101');

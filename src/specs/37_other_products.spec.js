@@ -15,7 +15,7 @@ describe('37_other_products', ()=>{
     assert.strictEqual(typeof OtherProducts, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should output a string of other products with dashes', ()=>{
     assert.strictEqual(OtherProducts([1,4,3]), "12-3-4");
     assert.strictEqual(OtherProducts([3,1,2,6]), "12-36-18-6");
     assert.strictEqual(OtherProducts([1, 2, 3, 4, 5]), "120-60-40-30-24");
