@@ -1,19 +1,23 @@
 const assert = require('assert');
 const path = require('path');
-const FNAME = require(path.resolve('src/prompts', 'FCN'));
+const BitwiseTwo = require(path.resolve('src/prompts', '47_bitwise_two'));
 
 /*
+  Input:"100", "000"
+  Output:"000"
 
-
+  Input:"10100", "11100"
+  Output:"10100"
 */
 
-describe('FCN', ()=>{
+describe('47_bitwise_two', ()=>{
   it('should be a function', ()=>{
-    assert.strictEqual(typeof FNAME, 'function');
+    assert.strictEqual(typeof BitwiseTwo, 'function');
   });
 
   it('should be a function', ()=>{
-    assert.strictEqual(FNAME(), );
-    assert.strictEqual(FNAME(), );
+    assert.strictEqual(BitwiseTwo(["100", "000"]), '000');
+    assert.strictEqual(BitwiseTwo(["10100", "11100"]), '10100');
+    assert.strictEqual(BitwiseTwo(["10111", "01101"]), '00101');
   });
 });
