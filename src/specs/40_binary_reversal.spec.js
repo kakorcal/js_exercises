@@ -15,7 +15,7 @@ describe('40_binary_reversal', ()=>{
     assert.strictEqual(typeof BinaryReversal, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return the value of the reversed binary number', ()=>{
     assert.strictEqual(BinaryReversal('213'), '171');
     assert.strictEqual(BinaryReversal('4567'), '60296');
     assert.strictEqual(BinaryReversal('47'), '244');
