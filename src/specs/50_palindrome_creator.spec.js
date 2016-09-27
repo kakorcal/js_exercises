@@ -15,7 +15,7 @@ describe('50_palindrome_creator', ()=>{
     assert.strictEqual(typeof PalindromeCreator, 'function');
   });
 
-  it('should ', ()=>{
+  it('should determine if the string can form a palindrome', ()=>{
     assert.strictEqual(PalindromeCreator('mmop'), 'not possible');
     assert.strictEqual(PalindromeCreator('kjjjhjjj'), 'k');
     assert.strictEqual(PalindromeCreator('abjchba'), 'jc');
