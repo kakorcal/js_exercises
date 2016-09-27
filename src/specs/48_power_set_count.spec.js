@@ -15,7 +15,7 @@ describe('48_power_set_count', ()=>{
     assert.strictEqual(typeof PowerSetCount, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return the number of possible combinations', ()=>{
     assert.strictEqual(PowerSetCount([1, 2, 3, 4]), 16);
     assert.strictEqual(PowerSetCount([5, 6]), 4);
     assert.strictEqual(PowerSetCount([1, 2, 3]), 8);

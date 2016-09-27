@@ -15,7 +15,7 @@ describe('47_bitwise_two', ()=>{
     assert.strictEqual(typeof BitwiseTwo, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should return a bitwise AND operated string', ()=>{
     assert.strictEqual(BitwiseTwo(["100", "000"]), '000');
     assert.strictEqual(BitwiseTwo(["10100", "11100"]), '10100');
     assert.strictEqual(BitwiseTwo(["10111", "01101"]), '00101');

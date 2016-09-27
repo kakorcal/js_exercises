@@ -15,7 +15,7 @@ describe('44_largest_pair', ()=>{
     assert.strictEqual(typeof LargestPair, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should find the largest pair in the number', ()=>{
     assert.strictEqual(LargestPair(453857), 85);
     assert.strictEqual(LargestPair(363223311), 63);
     assert.strictEqual(LargestPair(4759472), 94);

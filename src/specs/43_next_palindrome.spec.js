@@ -15,7 +15,7 @@ describe('43_next_palindrome', ()=>{
     assert.strictEqual(typeof NextPalindrome, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should find the next digit that is a palindrome', ()=>{
     assert.strictEqual(NextPalindrome(2), 3);
     assert.strictEqual(NextPalindrome(180), 181);
     assert.strictEqual(NextPalindrome(24), 33);

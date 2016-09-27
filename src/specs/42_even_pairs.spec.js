@@ -15,7 +15,7 @@ describe('42_even_pairs', ()=>{
     assert.strictEqual(typeof EvenPairs, 'function');
   });
 
-  it('should be a function', ()=>{
+  it('should determine if an even pair exists in the string', ()=>{
     assert.strictEqual(EvenPairs("3gy41d216"), 'true');
     assert.strictEqual(EvenPairs("f09r27i8e67"), 'false');
     assert.strictEqual(EvenPairs("f178svg3k19k46"), 'true');
