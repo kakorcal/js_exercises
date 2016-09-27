@@ -10,7 +10,19 @@
 */
 
 function ProductDigits(num){
+  var max = num % 2 === 0 ? Math.floor(num / 2) : num;
+  var arr = [];
   
+  for(var i = 1; i <= max; i++){
+    for(var j = i; j <= max; j++){
+      if(i * j === num){
+        arr.push(i.toString().length + j.toString().length);
+        break;
+      }
+    }
+  }
+  
+  return Math.min.apply(null, arr);
 }
 
 module.exports = ProductDigits;
