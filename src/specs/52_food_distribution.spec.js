@@ -10,7 +10,7 @@ const FoodDistribution = require(path.resolve('src/prompts', '52_food_distributi
   Output:4
 */
 
-describe('52_food_distribution', ()=>{
+xdescribe('52_food_distribution', ()=>{
   it('should be a function', ()=>{
     assert.strictEqual(typeof FoodDistribution, 'function');
   });

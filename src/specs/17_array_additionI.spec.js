@@ -10,7 +10,7 @@ const ArrayAdditionI = require(path.resolve('src/prompts', '17_array_additionI')
   Output:"true"
 */
 
-xdescribe('17_array_additionI', ()=>{
+describe('17_array_additionI', ()=>{
   it('should be a function', ()=>{
     assert.strictEqual(typeof ArrayAdditionI, 'function');
   });
